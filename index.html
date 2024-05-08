@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock Project</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
         <option value="">New York</option>
         <option value="">Auckland</option>
       </select>
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles</h2>
           <div class="date">May 8th 2024</div>
@@ -24,19 +25,18 @@
         <div class="time">10:34:55<small>AM</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="paris">
         <div>
-          <h2>Sydney</h2>
+          <h2>Paris</h2>
           <div class="date">May 8th 2024</div>
         </div>
         <div class="time">10:34:55<small>AM</small></div>
       </div>
-    </div>
     <footer>
       This project is coded by <a href=""><strong>Sujin Y.</strong></a> and is
       open sourced on
       <a href="">Github.</a>
     </footer>
-    <script src="javascript/world-clock.js"></script>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
